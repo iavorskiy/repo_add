@@ -1,6 +1,7 @@
 ---
-- hosts: hosts.txt
+- hosts: all
   become: yes
-  roles: user_role
+  roles:
+    - user_role
 
 
