@@ -3,5 +3,6 @@
   become: yes
   roles:
     - user_role
+    - yum_role
 
 
