@@ -4,7 +4,8 @@
   yum_repository:
     name: httpd custom
     description: HTTPD repo
-    baseurl: http://18.218.220.34/centos_repository/5/x86_64/
+    baseurl: http://18.218.220.34/centos_repository/5/$basearch
+    gpgcheck: 0
 
 - name: Install HTTPD
   yum:
