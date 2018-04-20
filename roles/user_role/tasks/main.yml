@@ -15,4 +15,4 @@
   authorized_key:
     user: "{{user_name}}"
     state: present
-    key: "{{ lookup('file', '/home/centos/.ssh/id_rsa.pub') }}"
+    key: "{{ lookup('file', '/home/centos/.ssh/centos.pem') }}"
